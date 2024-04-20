@@ -1,0 +1,17 @@
+img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space below images */
+    margin: 0 auto; /* Center images horizontally */
+    border-radius: 5px; /* Add rounded corners to images */
+}
+
+/* Style for news article links */
+.news-link {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.news-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
